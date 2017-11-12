@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 //        linearLayout.addView(view);
 
 //           or
-
+//  this is another way
         view = layoutInflater.inflate(R.layout.sublayout, linearLayout);
     }
 }
