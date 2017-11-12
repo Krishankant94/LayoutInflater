@@ -18,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
         layoutInflater = getLayoutInflater();
-        view = layoutInflater.inflate(R.layout.sublayout, null);
-        linearLayout.addView(view);
+
+//        view = layoutInflater.inflate(R.layout.sublayout, null);
+//        linearLayout.addView(view);
+
+//           or
+
+        view = layoutInflater.inflate(R.layout.sublayout, linearLayout);
     }
 }
